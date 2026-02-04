@@ -1,0 +1,43 @@
+#one{
+    ol{
+        li{
+            color: blue;
+        }
+    }
+    
+}
+#two{
+    ol{
+        li{
+            color: green;
+        }
+    }
+}
+.fruits{
+    color:red;
+}
+#s{
+    font-size:100px;
+}
+
+ol{
+    list-style: decimal-leading-zero;
+}
+
+h1{
+    border-width: 10px;
+    border-style: solid;
+    border-color:aqua;
+    width: fit-content;
+}
+
+p{
+    border-width: 10px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+img{
+    border:10px solid blue;
+
+}

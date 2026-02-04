@@ -1,0 +1,36 @@
+#project{
+    /* background-color: black;
+    color: white; */
+    #header{
+        #title{
+            text-align: center;
+            text-decoration: underline;
+        }
+    }
+    #text{
+        #image{
+            height:auto;
+            width: 20%;
+        }
+        #one{
+            text-transform: capitalize;
+        }
+        #two{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #three{
+            font-size: 20px;
+        }
+        #para{
+            width:50%;
+            
+        }
+        #logo{
+            a{
+                text-decoration: none;
+                
+            }
+        }
+    }
+
+}

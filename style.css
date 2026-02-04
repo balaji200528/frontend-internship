@@ -1,0 +1,14 @@
+/*   */
+
+p{
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+#one{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
