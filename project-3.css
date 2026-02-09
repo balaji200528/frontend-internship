@@ -1,92 +1,124 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.project{
-    .navbar{
+
+.project {
+    .navbar {
         padding: 10px;
         border-bottom: 1px solid gray;
-        a{
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+
+        a {
             text-decoration: none;
             color: black;
             font-size: 20px;
-            margin-right:20px ;  
-            
+            margin-right: 20px;
+
         }
-        #home{
-            margin-left:510px;
+
+         #home {
+            margin-left: 510px;
         }
-        #insta{
-            margin-left:400px;
-        }
-        
+
+    
+
+    #insta {
+        /* justify-content: end; */
+        margin-left: 400px;
+    } 
+
     }
-    .title{
+
+    .title {
         margin-top: 10px;
         font-size: 50px;
         font-weight: bold;
-        i{
+        justify-content:end;
+
+        i {
             margin-left: 550px;
         }
     }
-    .subnavbar{
+
+    .subnavbar {
         margin-top: 10px;
-        margin-left: 450px;
-        a{
+        margin-left: 480px;
+
+        a {
             margin-left: 20px;
         }
     }
-   
-    
-    .card{
-        border: 2px solid black;
-        width: 420px;
-        padding: 10px;
-        margin-left: 440px;
-        margin-top: 20px;
 
-    img{
-        width:420px;
-        
+    .cards-container {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* allows next row */
+        margin-top: 40px;
     }
-    a{
-        text-decoration: none;
-        
 
-    }
-    p{
+
+    .card {
+        width: 320px;
         margin-top: 10px;
-        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        padding: 12px;
+        background-color: white;
+
+        img {
+            width: 320px;
+
+        }
+
+        a {
+            text-decoration: none;
+
+
+        }
+
+        p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #hello {
+            border-top: 1px solid grey;
+        }
     }
-    #hello{
-        border-top: 1px solid grey;
-    }
-    }
-    
-    .footer{
-        margin-top:100px;
+
+    .footer {
+        margin-top: 100px;
         background-color: black;
         color: white;
         text-align: center;
-        i{
+
+        i {
             margin-top: 20px;
             font-size: 30px;
         }
-        h1{
-            
+
+        h1 {
+
             border-bottom: 1px solid white;
             font-size: 30px;
             padding-bottom: 10px;
         }
-        a{
+
+        a {
             color: white;
             text-decoration: none;
         }
-        h2{
+
+        h2 {
             margin-top: 15px;
             font-size: 20px;
         }
-        a{
+
+        a {
             margin-top: 20px;
             font-size: 30px;
             padding-bottom: 10px;
